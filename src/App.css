@@ -1,0 +1,25 @@
+.star-rating {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 40px auto;
+  }
+  
+  .star {
+	cursor: pointer;
+	font-size: 24px;
+	color: #ccc;
+	margin: 0 5px;
+  }
+  
+  .star:hover {
+	color: #ffd700;
+  }
+  
+  .star:hover ~ .star {
+	color: #ccc;
+  }
+  
+  .star.rated {
+	color: #ffd700;
+  }
